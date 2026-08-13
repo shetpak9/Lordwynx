@@ -2,20 +2,20 @@
         <table border="0" cellpadding="2" cellspacing="2" width="300">
             <tr>
                 <td>First Name: </td>
-                <td><input type="text" name="cfname"></td>
+                <td><input type="text" name="cfname" required></td>
             </tr>
             <tr>
                 <td>M.I</td>
-                <td><input type="text" name="cmi" size="1" maxlength="1"></td>
+                <td><input type="text" name="cmi" size="1" maxlength="1" required></td>
             </tr>
             <tr>
                 <td>Last Name: </td>
-                <td><input type="text" name="clname"></td>
+                <td><input type="text" name="clname" required></td>
             </tr>
             <tr>
                 <td>Gender</td>
                 <td>
-                    <select name="gender">
+                    <select name="gender" required>
                         <option value="">Select Gender</option>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
@@ -24,11 +24,11 @@
             </tr>
             <tr>
                 <td>Contact No.</td>
-                <td><input type="text" name="contact_no"></td>
+                <td><input type="text" name="contact_no" required></td>
             </tr>
             <tr>
                 <td>Address</td>
-                <td><input type="text" name="address"></td>
+                <td><input type="text" name="address" required></td>
             </tr>
             <td colspan="2" align="center">
                 <input type="submit" name="save" value="Save Record">
