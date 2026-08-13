@@ -5,10 +5,10 @@
     <script type="text/javascript">
         var con = confirm("Are you sure you want to delete this record?");
         if(con){
-            window.location.href = "/Lordwynx/delete_record.php?cId=<?= $cId ?>&com=delete";
+            window.location.href = "/Lordwynx/delete_record?cId=<?= $cId ?>&com=delete";
         }
         else{
-            window.location.href = "/Lordwynx/search_record.php";
+            window.location.href = "/Lordwynx/search_record";
         }
     </script>
 <?php    
@@ -29,7 +29,7 @@
         ?>
          <script>
             alert("Record deleted succesfully!");
-            window.location.href = "/Lordwynx/search_record.php";
+            window.location.href = "/Lordwynx/search_record";
          </script>   
 <?php
         }

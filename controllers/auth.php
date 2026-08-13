@@ -17,7 +17,7 @@ $ulname = $row['ulname'];
 }
 else{
 ?>
-    <script type="text/jaavascript">
+    <script type="text/javaascript">
         window.location = "/Lordwynx/router";
     </script>
 <?php
